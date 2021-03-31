@@ -381,6 +381,7 @@ class ChartController {
         return this.findById(id);
       })
       .catch((err) => {
+        console.error("updateChartData", err);
         return err;
       });
   }
@@ -445,6 +446,7 @@ class ChartController {
         return this.findById(gChart.getDataValue("id"));
       })
       .catch((error) => {
+        console.error("runMongoQuery", error);
         return new Promise((resolve, reject) => reject(error));
       });
   }
@@ -614,6 +616,7 @@ class ChartController {
         return result;
       })
       .catch((err) => {
+        console.error("exportChartData", err);
         return new Promise((resolve, reject) => reject(err));
       });
   }

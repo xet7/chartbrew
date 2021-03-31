@@ -414,6 +414,7 @@ module.exports = (app) => {
         return res.status(200).send(fileBuffer);
       })
       .catch((err) => {
+        console.error("/chart/export", err);
         return res.status(400).send(err);
       });
   });

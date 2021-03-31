@@ -1,6 +1,7 @@
 {
   "extends": "airbnb-base",
   "rules": {
+    "no-console": ["error", { "allow": ["warn", "error"] }],
     "quotes": [1, "double"],
     "no-plusplus": "off",
     "no-underscore-dangle": "off",
