@@ -68,7 +68,7 @@
     "simplecrypt": "^0.1.0",
     "umzug": "^3.7.0",
     "uninstall": "*",
-    "uuid": "^9.0.1"
+    "uuid": "^14.0.0"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.19.1",
